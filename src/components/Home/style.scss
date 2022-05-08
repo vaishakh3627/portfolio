@@ -1,0 +1,258 @@
+//index file
+.main {
+  width: 100%;
+  height: auto;
+}
+
+//banner file
+.banner {
+  width: 98.5vw;
+  height: 100vh;
+  background-image: url("../../assets/images/back.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content-wrapper {
+    width: 80%;
+    height: 20%;
+    h1 {
+      margin: 0px !important;
+      font-family: "Tapestry", cursive;
+      font-size: 4rem;
+      color: black;
+    }
+    h3 {
+      margin: 0px !important;
+      font-family: "Tapestry", cursive;
+      color: black;
+    }
+    .text {
+      p {
+        display: inline-block;
+        color: blue;
+        margin: 0px !important;
+      }
+    }
+    .social-media-wrapper {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      a {
+        color: black;
+      }
+      .social-media {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icons {
+          width: 40px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100vw !important;
+    background-color: whitesmoke;
+    background-image: none !important ;
+    .content-wrapper {
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+}
+
+//about file
+.about-wrapper {
+  margin-top: 30px;
+  h2 {
+    font-weight: 700;
+  }
+  q {
+    font-weight: 600;
+  }
+  .about-details {
+    margin-top: 40px;
+    .image {
+      width: 20rem;
+      border-radius: 20px;
+    }
+    h3 {
+      margin: 0px !important;
+      font-weight: 700;
+    }
+    p {
+      font-weight: 600;
+    }
+    .content {
+      display: inline-block;
+      margin-left: 5px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-wrapper {
+    h2 {
+      font-size: 40px;
+    }
+    q {
+      font-size: 20px;
+    }
+    .about-details {
+      .image {
+        margin-left: 20px !important;
+      }
+    }
+  }
+}
+
+//skills file
+.skills-wrapper {
+  margin-top: 30px;
+  h2 {
+    font-weight: 700;
+  }
+  .progressbar-wrapper {
+    margin-top: 20px;
+    h6 {
+      margin: 5px !important;
+    }
+    .progressbar {
+      height: 10px !important;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skills-wrapper {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
+
+//resume file
+.resume-wrapper {
+  .resume-contents {
+    display: flex;
+    justify-content: space-between;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  .year {
+    height: 25px;
+    width: 90px;
+  }
+  .resume-divider {
+    border-left: 3px solid rgb(193, 193, 245);
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .resume-wrapper {
+    h2 {
+      font-size: 40px;
+    }
+    .resume-divider {
+      margin-top: -20px !important;
+    }
+  }
+}
+
+//services file
+.services-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  h2 {
+    font-weight: 700;
+  }
+  .services-content {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .services {
+      width: 80%;
+      height: 18rem;
+      padding: 10px;
+      background-color: rgb(236, 247, 239);
+      border-radius: 15px;
+      .image-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .services-image {
+          width: 10rem;
+        }
+      }
+      h4 {
+        margin-top: 50px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .services-wrapper {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
+
+//footer file
+.footer-wrapper {
+  width: 100%;
+  height: 20rem;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-weight: 800;
+  }
+  q {
+    font-size: 18px !important;
+    font-weight: 600;
+  }
+  .social-media-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    a {
+      color: black;
+    }
+    .social-media {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icons {
+        width: 40px;
+        height: 20px;
+      }
+    }
+  }
+  p {
+    display: inline;
+    margin-left: 10px;
+  }
+}
