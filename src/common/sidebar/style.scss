@@ -1,0 +1,58 @@
+.sidebar-wrapper {
+  width: 80px;
+  height: 45rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 2;
+  a {
+    color: rgb(10, 88, 28);
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  .sidebar-menu {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(221, 250, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px;
+    opacity: 0.6;
+    .sidebar-icon {
+      width: 40px;
+      height: 25px;
+    }
+  }
+}
+.navbar-view {
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: rgb(221, 250, 228);
+  color: black !important;
+}
+.toggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.header {
+  background-color: rgb(175, 248, 191) !important;
+}
+@media only screen and (min-width: 600px) {
+  .header {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidebar-wrapper {
+    display: none;
+    width: 0px !important;
+  }
+}
