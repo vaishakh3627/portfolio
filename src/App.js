@@ -1,11 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.scss";
+
+import SideBar from "./common/sidebar";
+import ApplicationRoutes from "./Routes";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <div className="app">
+        <SideBar />
+        <ApplicationRoutes />
+      </div>
+    </>
   );
 }
 
