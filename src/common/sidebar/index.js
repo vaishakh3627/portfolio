@@ -30,7 +30,8 @@ const SideBar = () => {
       </div>
       <Navbar collapseOnSelect expand="lg" fixed="top" className="header">
         <Container>
-          <Navbar.Brand href="#home">LOGO</Navbar.Brand>
+          <Navbar.Brand href="#home">
+          </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             className="toggle"

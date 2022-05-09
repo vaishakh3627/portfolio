@@ -9,7 +9,7 @@ const Skills = () => {
         <Col xs={12} className="text-center">
           <h2>SKILLS</h2>
         </Col>
-        <Col xs={12}>
+        <Col xs={12} className="px-4">
           <Row>
             <Col lg={6} md={6} sm={12} className="progressbar-wrapper">
               <h6>HTML</h6>

@@ -87,7 +87,7 @@
   }
   .about-details {
     margin-top: 40px;
-    .image {
+    .image-content {
       width: 20rem;
       border-radius: 20px;
     }
@@ -111,11 +111,6 @@
     }
     q {
       font-size: 20px;
-    }
-    .about-details {
-      .image {
-        margin-left: 20px !important;
-      }
     }
   }
 }
@@ -146,6 +141,7 @@
 
 //resume file
 .resume-wrapper {
+  padding: 30px !important;
   .resume-contents {
     display: flex;
     justify-content: space-between;
@@ -164,6 +160,7 @@
 }
 @media only screen and (max-width: 600px) {
   .resume-wrapper {
+    padding: 20px !important;
     h2 {
       font-size: 40px;
     }
@@ -191,6 +188,11 @@
       padding: 10px;
       background-color: rgb(236, 247, 239);
       border-radius: 15px;
+      z-index: 9;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
       .image-wrapper {
         display: flex;
         align-items: center;
@@ -202,6 +204,19 @@
       h4 {
         margin-top: 50px !important;
       }
+    }
+    .services:hover {
+      background-color: #00aadc;
+      color: white;
+      border-color: #00aadc;
+      width: calc(80% - 20px);
+      height: calc(18rem + 20px);
+      margin: 0px;
+      overflow: inherit;
+      z-index: 10;
+      font-size: 1.15vw;
+      box-shadow: 0px 7.5px 7.5px #93aab6;
+      cursor: pointer;
     }
   }
 }

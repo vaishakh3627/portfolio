@@ -46,13 +46,13 @@ const Footer = () => {
         <Col xs={12} className="text-center mt-3">
           <SiGmail />
           <p>
-            <strong> - vaishakh3627@gmail.com</strong>
+            <strong>  vaishakh3627@gmail.com</strong>
           </p>
         </Col>
         <Col xs={12} className="text-center mt-1">
           <FiPhoneCall />
           <p>
-            <strong> - +971-509741465</strong>
+            <strong>  +971-509741465</strong>
           </p>
         </Col>
       </Row>
